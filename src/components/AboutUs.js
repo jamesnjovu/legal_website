@@ -9,6 +9,13 @@ function AboutUs() {
     return (
         <ScrollAnimationWrapper>
             <motion.main id="#about_us" className="lg:relative mt-6" variants={scrollAnimation}>
+                <motion.div className="relative h-64 w-full sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2" variants={scrollAnimation}>
+                    <img
+                        className="absolute inset-0 h-full w-full object-cover"
+                        src={photo}
+                        alt=""
+                    />
+                </motion.div>
                 <div className="mx-auto w-full max-w-7xl pt-16 pb-20 text-center lg:py-48 lg:text-left">
                     <div className="px-6 sm:px-8 lg:w-1/2 xl:pr-16">
                         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
@@ -28,13 +35,6 @@ function AboutUs() {
                         </p>
                     </div>
                 </div>
-                <motion.div className="relative h-64 w-full sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2" variants={scrollAnimation}>
-                    <img
-                        className="absolute inset-0 h-full w-full object-cover"
-                        src={photo}
-                        alt=""
-                    />
-                </motion.div>
             </motion.main>
         </ScrollAnimationWrapper>
     );
