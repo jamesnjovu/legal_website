@@ -2,7 +2,7 @@
   "name": "legal_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jamesnjovu.github.io/legal_website",
+  "homepage": "http://207.148.64.167",
   "dependencies": {
     "@headlessui/react": "^1.7.7",
     "@testing-library/jest-dom": "^5.16.5",

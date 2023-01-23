@@ -12,6 +12,7 @@ function Header() {
     { name: 'About Us', href: '#about_us' },
     { name: 'Contact Us', href: '#contact_us' },
   ]
+  
   const handleClickScroll = (id) => {
     const element = document.getElementById(id);
     if (element) {
